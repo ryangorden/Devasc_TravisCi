@@ -43,4 +43,4 @@ The files in `unittest_logs/` directory just capture the output from running
 The `*_test_case.py` files inherit from `unittest.TestCase` which provides
 the backend `assert` methods, setup, teardown, and other basic features.
 The `unittest_run.py` is the main script which uses a variety of
-auxiliary `unittest` components to build and execute test suites.
+auxiliary `unittest` components to build and execute test suites..
