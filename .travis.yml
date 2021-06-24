@@ -17,7 +17,7 @@ install:
 # Execute the linting and unit tests before spinning up containers.
 # Once containers are up, print them out for logging purposes.
 before_script:
-  - "pylint src/*.py"
+ # - "pylint src/*.py"
   - "pytest --verbose src/test_unit.py"
   - "docker-compose up -d"
   - "docker container ls"
